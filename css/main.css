@@ -1,0 +1,104 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: url('../img/office.png');
+    color: #FFF;
+   /* font-family: Helvetica, Arial, sans-serif; */
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    padding: 3em;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 0.5em;
+    font-family: 'Old Standard TT', serif;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.addColor {
+    color: green;
+}
+
+#list-title {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+}
+
+#scheduler { 
+    /*border: 1px solid;*/
+    position: absolute;
+    width: 80%;
+    height: 600px;
+}
+
+.big {
+    height: 50px;
+    width: 40px;
+    background-color: green;
+}
+
+td {
+    border: 1px solid #FFF;
+    width: 40px;
+    height: 40px;
+}
+
+table {
+   /* border: 2px solid;*/
+}
+
+th {
+    /*border: 3px solid purple;
+*/
+    padding: 1em;
+    vertical-align: middle; 
+}
+
+tbody th {
+    font-size: 0.5em;
+}
+
+tr {
+    /*border: 2px solid green;*/
+}
+
+#list-container {
+    /*border: 1px solid yellow;*/  
+    position: relative;
+    width: 15%;
+    height: 598px;
+    float: right;
+}
+
+
+#input-box {
+    width: 97%;
+}
+
+li {
+    border: 1px solid #999;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+
+.state-default {
+    background-color: #555;
+}
+
+.state-hover {
+    background-color: #73FF7E;
+}
